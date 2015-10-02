@@ -1,0 +1,10 @@
+<section id="articles">
+    <article id="article1">
+      <%= simple_form_for @post do |f| %>
+        <%= f.input :title%>
+        <%= f.input :description  %>
+        <br />
+        <%= f.submit "Create" %>
+      <% end %>
+    </article>
+</section>

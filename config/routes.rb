@@ -1,3 +1,4 @@
 Quiz1::Application.routes.draw do
-  root 'static_pages#index'
+  root 'posts#index'
+  resources :posts
 end
